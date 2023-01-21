@@ -16,9 +16,6 @@
         </div>
     </div>
 </template>
-<script setup>
-definePageMeta({
-    layout: "index",
-});
+<script>
 const { data: prod } = await useFetch("https://fakestoreapi.com/products");
 </script>
